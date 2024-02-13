@@ -1,35 +1,21 @@
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #ffffff
-    z-index: -1;
-}
-
 body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff; /* Set background color to white */
+}
+
+.main {
+  text-align: center;
+}
+
+.container {
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  overflow: auto; 
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  overflow: auto;
-}
-
-.content {
-  color: #f4f4f4;
-}
-
-.valentine-image {
-  width: 300px; /* Змініть ширину за потребою */
-  border-radius: 10px;
+  max-width: 600px; /* Adjust max-width as needed */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 button {
