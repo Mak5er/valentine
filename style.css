@@ -17,8 +17,10 @@ body {
   overflow: auto; 
 }
 
-.container {
-  
+.content {
+    font-family: 'Geologica', sans-serif;
+    color: #f4f4f4;
+    animation: open 0.5s;
 }
 
 .valentine-image {
