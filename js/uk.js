@@ -45,12 +45,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Збільшити розмір кнопки "Так", але не більше розміру екрану
         const currentFontSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
-        const newFontSize = currentFontSize * 1.2;
+        const newFontSize = currentFontSize * 1.5;
+
+        if ("vibrate" in navigator) {
+            navigator.vibrate(100);
+        }
 
         // Перевірка розміру екрану
-        const maxWidth = window.innerWidth;
-        if (newFontSize < maxWidth) {
-            yesButton.style.fontSize = newFontSize + "px";
+        const maxWidth = window.innerWidth * 0.70;
+
+        if (newFontSize > maxWidth) {
+            yesButton.style.fontSize = Math.floor(maxWidth) + "px";
+        } else {
+            yesButton.style.fontSize = Math.floor(newFontSize) + "px";
         }
+
     });
 });

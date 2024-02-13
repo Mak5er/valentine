@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 body::before {
     content: '';
     position: fixed;
@@ -22,6 +24,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .content {
@@ -29,30 +35,32 @@ main {
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
 
 #yesButton {
-  background-color: #3cb371;
+    text-align: center;
+    background-color: #3cb371;
 }
 
 #noButton {
-  background-color: #c2185b;
+    text-align: center;
+    background-color: #c2185b;
 }
 
 #yesButton:hover {
-  background-color: #32925d;
+    background-color: #32925d;
 }
 
 #noButton:hover {
-  background-color: #9b144a;
+    background-color: #9b144a;
 }
 
 #responseMessage {
-  margin-top: 20px;
+    margin-top: 20px;
 }
