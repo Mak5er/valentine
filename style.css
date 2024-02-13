@@ -5,7 +5,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(325deg, #ffffff, #f792ec); /* Змінив колір фону на червоно-білий */
+    background: linear-gradient(325deg, #ffffff, #ff6b6b); /* Змінив колір фону на червоно-білий */
     background-size: 200% 200%;
     z-index: -1;
 }
@@ -19,7 +19,6 @@ body {
 }
 
 .content {
-  font-family: 'Geologica', sans-serif;
   color: #f4f4f4;
 }
 
