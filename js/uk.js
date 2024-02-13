@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Перевірка розміру екрану
-        const maxWidth = window.innerWidth * 0.70;
+        const maxWidth = window.innerWidth * 0.80;
 
         if (newFontSize > maxWidth) {
             yesButton.style.fontSize = Math.floor(maxWidth) + "px";
