@@ -18,6 +18,12 @@ body {
   overflow: auto; 
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
 .content {
   color: #f4f4f4;
 }
