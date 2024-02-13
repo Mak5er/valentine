@@ -5,7 +5,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(325deg, #f8f8f8, #0e0e0e);
+    background: linear-gradient(325deg, #ffffff, #ff0000); /* Змінив колір фону на червоно-білий */
     background-size: 200% 200%;
     z-index: -1;
 }
