@@ -1,12 +1,10 @@
 body::before {
-    content: '';
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(325deg, #ffffff, #ff6b6b); /* Змінив колір фону на червоно-білий */
-    background-size: 200% 200%;
+    background: #ffffff
     z-index: -1;
 }
 
