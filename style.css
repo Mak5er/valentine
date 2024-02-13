@@ -9,6 +9,7 @@ body::before {
     background-size: 200% 200%;
     z-index: -1;
 }
+
 body {
   width: 100%;
   min-height: 100%;
